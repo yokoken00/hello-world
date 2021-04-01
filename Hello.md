@@ -19,7 +19,12 @@ Gitのコマンドを調べながら、gitを使ってみる（GUIソフトは�
 ### Use of matplotlib
 #### matplotlib を用いて、グラフを書く練習を行う
 
-irisのデータを用いる
+python3、pandas、matplotlib、numpy、sklearnをインストールする。
+インストールが難しい場合は、anacondaを用いれば良い。
+グラフはpdf形式で保存すること。
 
-1. iris のデータの散布図を描く（2次元のグラフ×6）
-2. 
+1. まず、このTutorial（https://www.datacamp.com/community/tutorials/matplotlib-tutorial-python ）の内容を理解する。
+2. sklearn からiris のデータを取得しその散布図を描く（2次元のグラフ×6）
+3. np.random.randn(1000)で発生させた1,000個の乱数の累積値を時系列グラフにする。横軸は月とする。
+4. np.random.randn(1000,4)で発生させた1,000個×4個の乱数の累積値の時系列グラフを作成する。横軸は月とする。縦軸はCD Sales、AB Sales の2種類を作成する。
+5. 
